@@ -1,0 +1,30 @@
+{
+  "name": "flutter_pollfish",
+  "version": "4.1.0",
+  "summary": "A Flutter plugin for rendering Pollfish surveys within an app",
+  "description": "A  Flutter plugin for rendering Pollfish surveys within an app",
+  "homepage": "https://www.pollfish.com/publisher",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Pollfish, Inc.": "support@pollfish.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "Pollfish": [
+      "~> 6.3.0"
+    ]
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "static_framework": true
+}
